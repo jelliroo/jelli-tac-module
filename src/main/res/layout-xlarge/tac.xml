@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:id="@+id/tac">
+
+
+    <Button
+        android:text="@string/default_agree_button_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/toc_agree"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/default_small_text_view_message_format"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/toc_agree"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/toc_small_text_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@drawable/ic_album_black_24dp"
+        android:id="@+id/toc_app_logo"
+        android:contentDescription="@string/applogo_content_description"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/default_heading_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toc_heading"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_above="@+id/toc_app_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp" />
+
+
+</RelativeLayout>

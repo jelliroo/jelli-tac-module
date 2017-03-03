@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">jelli-tac-module</string>
+    <string name="default_heading_message">Welcome to TAC App</string>
+    <string name="default_agree_button_message">Agree and Continue</string>
+    <string name="default_tac_name">Jelli TAC App Terms, Conditions and Privacy Policies</string>
+    <string name="default_small_text_view_message_format">Tap on \'Agree and Continue\' to the </string>
+    <string name="applogo_content_description">appLogo</string>
+</resources>
